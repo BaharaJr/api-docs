@@ -78,7 +78,9 @@ sidebar_label: Records
 ```JS
 /api/records/merge
 ```
+
 `Method:` POST
+
 ### Scenario One || Based on Records
 
 `Payload`
@@ -98,12 +100,15 @@ sidebar_label: Records
 
 ```JSON
 {
+  "organisationUnit":"XJpzOmbg7LuL6",
+  "form": "iJUMeqloMjmDq",
   "recordValues": [
-      {"id": "jJBwwcYa1kBzQ"}, 
-      {"id": "jJBwwcYa1kBzQ"}, 
-      {"id": "jJBwwcYa1kBzQ"}
+      {"id": "jJBwwcYa1kBzQ"},
+      {"id": "fEbTGVMKVLUTU"},
+      {"id": "nlG8zObKlkMcx"}
       ],
   "remove":["yxd7nZx3dExX9","ephzmm10i8Olc"]
 }
 ```
-> Where `recordValues` represents an array of all recordvalue ids for all fields to create a new record and `remove` represents an array of record ids to delete
+
+> Where organisationUnit represents and form represents the parameters of the new record to create `recordValues` represents an array of all recordvalue ids for all fields to create a new record and `remove` represents an array of record ids to delete
