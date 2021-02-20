@@ -25,36 +25,36 @@ sidebar_label: Records
   "message": "Duplicate Records",
   "records": [
       {
-      "field": "5289e93499515",
+      "field": "b2fkEQgzJdbhF",
       "name": "Check Number",
       "duplicates": [
         {
-          "id": "558a700e04a56",
+          "id": "BPlMPfo553ch5",
           "recordValues": [
              {
-              "field": "5289e93496216",
+              "field": "iKJDfOQmtw2qp",
               "value": "form four"
             },
             {
-              "field": "5289e9349dde1",
+              "field": "lJNeQk2bTNQl5",
               "value": "jdjjd"
             },
           ],
           "organisationunit": "zRgNXkU7Yef6L"
         },
         {
-          "id": "5c9415cce9fcd",
+          "id": "SspS99jTdRbn8",
           "recordValues": [
            {
-              "field": "5289e9349dde1",
+              "field": "nTw32YiWJtwhl",
               "value": "jdjjd"
             },
             {
-              "field": "5289e9349f037",
+              "field": "tRPYrDlb1n79w",
               "value": "ndnndf"
             },
             {
-              "field": "5289e934a027b",
+              "field": "lWDS8Rwg70G9I",
               "value": "nam"
             }
           ],
