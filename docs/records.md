@@ -6,7 +6,7 @@ sidebar_label: Records
 
 ### Record Duplicates and Merging API
 
-## Ge Duplicate Records.
+## Get Duplicate Records.
 
 `Endpoint`
 
@@ -73,13 +73,13 @@ sidebar_label: Records
 
 - Duplicates can be merged by two scenarios.
 
-### Scenario One || Based on Records
-
 `Endpoint`
 
 ```JS
 /api/records/merge
 ```
+`Method:` POST
+### Scenario One || Based on Records
 
 `Payload`
 
