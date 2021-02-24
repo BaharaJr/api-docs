@@ -1,7 +1,7 @@
 ---
 id: ou
 title: OrganisationUnits Module
-sidebar_label: OrganisationUnits
+sidebar_label: Organisation Units
 slug: /
 ---
 
