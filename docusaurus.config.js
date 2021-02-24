@@ -18,13 +18,13 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/",
+          to: "docs",
           activeBasePath: "docs",
           label: "Developer",
           position: "left",
         },
         {
-          to: "docs/",
+          to: "docs",
           activeBasePath: "docs",
           label: "User",
           position: "left",

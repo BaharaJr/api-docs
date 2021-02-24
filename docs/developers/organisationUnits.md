@@ -1,8 +1,7 @@
 ---
 id: ou
-title: OrganisationUnits Module
+title: Organisation Units
 sidebar_label: Organisation Units
-slug: /
 ---
 
 #### Organisationunit object includes the following keys.
