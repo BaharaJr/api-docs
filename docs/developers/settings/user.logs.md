@@ -50,7 +50,9 @@ sidebar_label: User Logs
 <br />
 
 ### Get current user logs
+<br />
 
+`Request Endpoint`
 ```JS
 /api/users/me/logs
 ```
@@ -90,11 +92,35 @@ sidebar_label: User Logs
         "x-forwarded-for": "41.59.81.88",
         "x-forwarded-proto": "https"
       }
-    },
-    {
-      "id": "mpoxdL4L5Abyh",
-      "time": "2021-03-03T13:53:56.954Z",
-      "resource": "/api/users/5845296be3787",
+    }
+  ]
+}
+```
+
+<br />
+
+### Get logs for a specific/selected User
+
+`Request Endpoint`
+```JS
+/api/users/5849565a0256c/logs
+```
+> Where `5849565a0256c` is the selected user ID
+
+```JSON
+{
+  "id": "5849565a0256c",
+  "lastUpdated": "2021-02-26T09:08:38.000Z",
+  "firstName": "HRHIS",
+  "surname": "HRHIS",
+  "email": "hrhish@hrhis.hrhis",
+  "lastLogin": "2021-02-26T09:08:38.000Z",
+  "enabled": true,
+  "logs": [
+   {
+      "id": "ieAQYKNheBeJT",
+      "time": "2021-03-03T13:53:34.274Z",
+      "resource": "/api/userRoles?paging=false",
       "method": "GET",
       "statuscode": "200",
       "statusname": "OK",
@@ -105,6 +131,7 @@ sidebar_label: User Logs
         "x-real-ip": "41.59.81.88",
         "connection": "close",
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
+        "if-none-match": "W/\"3205-OpOj/RVAqjbsFiR8hILjUOmwIlY\"",
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
@@ -117,3 +144,4 @@ sidebar_label: User Logs
   ]
 }
 ```
+
