@@ -6,30 +6,31 @@ module.exports = {
         "type": "category",
         "label": "Metadata Guide",
         "items": [
-          "developers/forms",
-          "developers/ou",
-          "developers/indicators",
+          "developers/metadata/forms",
+          "developers/metadata/ou",
+          "developers/metadata/indicators",
         ]
       },
       {
         "type": "category",
         "label": "Data Guide",
         "items": [
-          "developers/records",
-          "developers/analytics",
-          "developers/dashboards",
-          "developers/reports",
-          "developers/datastore"
+          "developers/data/records",
+          "developers/data/analytics",
+          "developers/data/dashboards",
+          "developers/data/reports",
+          "developers/data/datastore"
         ]
       },{
         "type": "category",
         "label": "Settings Guide",
         "items": [
-          "developers/users",
-          "developers/settings",
-          "developers/notifications",
-          "developers/processes",
-          "developers/apps"
+          "developers/settings/users",
+          "developers/settings/settings",
+          "developers/settings/notifications",
+          "developers/settings/processes",
+          "developers/settings/logs",
+          "developers/settings/apps"
         ]
       }
     ],
