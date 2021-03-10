@@ -51,3 +51,8 @@ Services provided in HRHIS are groped into different apps for easier organizatio
 *Scheduler
 *Health worker data
 *Dashboard
+
+##Using HRHIS system
+
+1.Accessing HRHIS
+HRHIS system  is available via the Web. Type https://hrhis.dhis2udsm.org/ in the address bar/search bar of a web browser(an application used to access the internet such as Internet Explorer, Mozilla Firefox, Google Chrome, Opera, etc.) to access HRHIS login screen  provided that you are connected to the Internet. It is recommended to use Mozilla Firefox or Google Chrome. Internet Explorer is not advised to be used for accessing HRHIS, but if it is necessary to use then, the latest version of the browser can be used). The HRHIS login page will appear as seen below,
