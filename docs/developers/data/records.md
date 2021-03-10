@@ -22,7 +22,13 @@ sidebar_label: Records
 
 ```JSON
  {
-  "message": "Duplicate Records",
+  "pager": {
+    "page": 1,
+    "pageSize": 100,
+    "pageCount": 00,
+    "total": 1295,
+    "nextPage": "/api/records/duplicates/52893cd128bd2?page=2"
+  },
   "records": [
       {
       "field": "b2fkEQgzJdbhF",
