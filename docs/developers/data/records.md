@@ -14,7 +14,12 @@ sidebar_label: Records
 /api/records/duplicates/hshD7171OpG
 ```
 
-> Where `hshD7171OpG` is the form id.
+* Where `hshD7171OpG` is the form id.
+* You can also pass the page size of data you want as:-
+    ````JS
+    /api/records/duplicates/hshD7171OpG?pageSize=300
+    ````
+   - Where `pageSize=300` is the query for a page of size 300 items.
 
 `Method:` GET
 
