@@ -5,8 +5,9 @@ sidebar_label: User
 
 ---
 
-                             #INTRODUCTION
-  ##HRHIS General Introduction                                                    
+INTRODUCTION
+
+*HRHIS General Introduction                                                    
 HRHIS is an open-source software for HRH information management developed by the Department of
 Computer Science, University of Dar es Salaam for the Ministry of Health and Social Welfare
 (Tanzania) to support the capture of data linked to any level in the organizational hierarchy
@@ -23,11 +24,14 @@ regional, district or facility level. It is designed to provide flexibility to:
 
 *Capture and store health personnel's data and history by organizational unit, cadre, and other
 criteria;
+
 *Add any number of datasets or elements required by any sector (such as the central health
   ministry, local governments, civil services or private providers);
+
 *Update organizational unit details according to users' requirements (e.g. allowing additional
   regions, districts and health facilities to be added dynamically without entering into system
   codes);
+
 *Generate web-enabled reports in different formats (general and aggregated), including
 graphical reporting.
 
@@ -41,18 +45,31 @@ System.
 ##HRHIS Services
 
 Services provided in HRHIS are groped into different apps for easier organization of data and maintenance of the system. Currently HRHIS has 10 apps as listed below;
+
 *Data quality
+
 *Data administration
+
 *import/export
+
 *Maintenance
+
 *Reports
+
 *Training
+
 *Worker portal
+
+
 *Scheduler
+
 *Health worker data
+
 *Dashboard
 
 ##Using HRHIS system
 
 1.Accessing HRHIS
 HRHIS system  is available via the Web. Type https://hrhis.dhis2udsm.org/ in the address bar/search bar of a web browser(an application used to access the internet such as Internet Explorer, Mozilla Firefox, Google Chrome, Opera, etc.) to access HRHIS login screen  provided that you are connected to the Internet. It is recommended to use Mozilla Firefox or Google Chrome. Internet Explorer is not advised to be used for accessing HRHIS, but if it is necessary to use then, the latest version of the browser can be used). The HRHIS login page will appear as seen below,
+
+![HRHIS Login Page]()
