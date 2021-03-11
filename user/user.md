@@ -5,7 +5,7 @@ sidebar_label: User
 
 ---
 
-INTRODUCTION
+#INTRODUCTION
 
 *HRHIS General Introduction                                                    
 HRHIS is an open-source software for HRH information management developed by the Department of
@@ -46,11 +46,13 @@ System.
 
 Services provided in HRHIS are groped into different apps for easier organization of data and maintenance of the system. Currently HRHIS has 10 apps as listed below;
 
+*Health worker data
+
+*import/export
+
 *Data quality
 
 *Data administration
-
-*import/export
 
 *Maintenance
 
@@ -62,8 +64,6 @@ Services provided in HRHIS are groped into different apps for easier organizatio
 
 
 *Scheduler
-
-*Health worker data
 
 *Dashboard
 
@@ -78,11 +78,11 @@ HRHIS system  is available via the Web. Type https://hrhis.dhis2udsm.org/ in the
 
 After successfully logging in HRHIS, you can access different applications in the system via the apps menu located at the top right hand Conner below the label that shows you name initials as seen in figure below. Each application corresponds to a specific module in the system. The steps to follow working with each module to achieve different user interests have been highlighted in the following sections.
 
-##Data Entry application
+##Health Worker Data Module
 
-Data entry is performed in data entry application found in the application menu. To perform data entry the following steps have to be followed:
+This module is used for managing all health worker data. Data entry, updating and viewing is performed in this application. This app is available in the Apps menu. To use Health worker data app the following steps have to be followed:
 
- 1.Select the data entry application from the apps menu. This can be done by either searching the apps menu using the search bar available in apps menu or by scrolling down the application menu to find data entry app and select it.
+ 1.Select the Health Worker Data application from the apps menu. This can be done by either searching the apps menu using the search bar available in apps menu or by scrolling down the Apps menu to find data entry app and select it.
 
  2.After selecting the data entry app, an interface will appear as shown in the figure below.
 
