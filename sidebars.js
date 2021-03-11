@@ -34,6 +34,7 @@ module.exports = {
           "developers/settings/apps",
         ],
       },
-    ]
+    ],
+    "User Manual": ["users/user"],
   },
 };

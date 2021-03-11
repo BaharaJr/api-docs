@@ -24,8 +24,8 @@ module.exports = {
           position: "left",
         },
         {
-          to: "users",
-          activeBasePath: "docs",
+          to: "docs/users/user",
+          activeBasePath: "docs/users/user",
           label: "User Manual",
           position: "left",
         },
@@ -41,35 +41,11 @@ module.exports = {
       links: [
         {
           title: "GitHub",
-          items: [
-            /*
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },*/
-          ],
+          items: [],
         },
         {
           title: "Contact",
-          items: [
-            /*
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },*/
-          ],
+          items: [],
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} UDSM-DHIS2`,
@@ -79,10 +55,6 @@ module.exports = {
     [
       "@docusaurus/preset-classic",
       {
-        docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/hisptz/hris-api-docs/blob/main/",
-        },
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/hisptz/hris-api-docs/blob/main/",
