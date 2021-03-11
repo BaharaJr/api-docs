@@ -70,6 +70,15 @@ Services provided in HRHIS are groped into different apps for easier organizatio
 ##Using HRHIS system
 
 1.Accessing HRHIS
+
 HRHIS system  is available via the Web. Type https://hrhis.dhis2udsm.org/ in the address bar/search bar of a web browser(an application used to access the internet such as Internet Explorer, Mozilla Firefox, Google Chrome, Opera, etc.) to access HRHIS login screen  provided that you are connected to the Internet. It is recommended to use Mozilla Firefox or Google Chrome. Internet Explorer is not advised to be used for accessing HRHIS, but if it is necessary to use then, the latest version of the browser can be used). The HRHIS login page will appear as seen below,
 
 ![HRHIS Login Page]()
+#Apps Menu
+
+After successful login, you can access different applications in the system via the apps menu located at the top right hand Conner below the label that shows you name initials as seen in figure below. Each application corresponds to a specific module in the system. The steps to follow working with each module to achieve different user interests have been highlighted in the following sections.
+
+#Data Entry application
+
+Data entry is performed by using an application called data entry that can be found in the application menu. To perform data entry do the following:
+*You can access the data entry application from the apps menu
