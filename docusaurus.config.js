@@ -24,9 +24,9 @@ module.exports = {
           position: "left",
         },
         {
-          to: "docs",
+          to: "users",
           activeBasePath: "docs",
-          label: "User",
+          label: "User Manual",
           position: "left",
         },
         {
@@ -81,13 +81,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           editUrl: "https://github.com/hisptz/hris-api-docs/blob/main/",
         },
-        user: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: "https://github.com/hisptz/hris-api-docs/",
+        docs: {
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/hisptz/hris-api-docs/blob/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
