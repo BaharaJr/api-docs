@@ -76,9 +76,16 @@ HRHIS system  is available via the Web. Type https://hrhis.dhis2udsm.org/ in the
 ![HRHIS Login Page]()
 ##Apps Menu
 
-After successful login, you can access different applications in the system via the apps menu located at the top right hand Conner below the label that shows you name initials as seen in figure below. Each application corresponds to a specific module in the system. The steps to follow working with each module to achieve different user interests have been highlighted in the following sections.
+After successfully logging in HRHIS, you can access different applications in the system via the apps menu located at the top right hand Conner below the label that shows you name initials as seen in figure below. Each application corresponds to a specific module in the system. The steps to follow working with each module to achieve different user interests have been highlighted in the following sections.
 
 ##Data Entry application
 
-Data entry is performed by using an application called data entry that can be found in the application menu. To perform data entry do the following:
-*Select the data entry application from the apps menu. This can be done by either searching the apps menu using the search bar available in apps menu or by scrolling down the application menu to find dat entry app and select it.
+Data entry is performed in data entry application found in the application menu. To perform data entry the following steps have to be followed:
+
+ 1.Select the data entry application from the apps menu. This can be done by either searching the apps menu using the search bar available in apps menu or by scrolling down the application menu to find data entry app and select it.
+
+ 2.After selecting the data entry app, an interface will appear as shown in the figure below.
+
+ 3.From the interface, select the organization unit and the specify the type of data entry form for which data has to be entered.
+
+ 4.Form will be displayed with appropriate data based on the specified organization unit.
