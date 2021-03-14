@@ -91,17 +91,15 @@ After successfully logging in HRHIS, you can access different applications in th
 
   Sometimes you may be having a large number of employees’ records which pose a tedious work of adding them one by one into the system. Import/Export application allows users to enter massive data into the system. To access Import/Export application do the following:
 
-    1.Go to the application menu and select Import/Export application from the menu.
+  1.Go to the application menu and select Import/Export application from the menu.
 
-    2.Click on the Import/Export application, HRHIS Import/Export application window will open up as in Figure 9
-
+  2.Click on the Import/Export application, HRHIS Import/Export application window will open up as in Figure 9
     3.Go to the Data Import Template tab
-
     4.Select the organization in which you want to import data from the organization unit tree.
 
-    5.Click on Get Import Template to download the template of the form you want to import data. The excel sheet for importing data with all fields in the data entry  will be downloaded
+  5.Click on Get Import Template to download the template of the form you want to import data. The excel sheet for importing data with all fields in the data entry  will be downloaded
 
-    6.Go to the excel sheet downloaded and populate the data you want to import into the system or check the excel against the data you have to make sure that the fields are in order.
+  6.Go to the excel sheet downloaded and populate the data you want to import into the system or check the excel against the data you have to make sure that the fields are in order.
 
 
   Note:
