@@ -18,7 +18,7 @@ should be harmonized, and housed under Health Management Information System (HMI
 consistency. The HRHIS software thus became part of the HMIS and was fully developed using the
 District Health Information System (DHIS) software.
 
-The HRHIS provides input/output mechanisms for data at different levels, such as national,
+ The HRHIS provides input/output mechanisms for data at different levels, such as national,
 regional, district or facility level. It is designed to provide flexibility to:
 
 * Capture and store health personnel's data and history by organizational unit, cadre, and other
@@ -88,7 +88,9 @@ After successfully logging in HRHIS, you can access different applications in th
   4. Form will be displayed with appropriate data based on the specified organization unit.
 
 # Import/Export Module
+ *You are required to Get Import Templates for every organization unit you want to import data as the data will be uploaded to the organization unit from which the template was downloaded.*
 
+ 7.To import data, go to the Data Import tab.
   Sometimes you may be having a large number of employees’ records which pose a tedious work of adding them one by one into the system. Import/Export application allows users to enter massive data into the system. To access Import/Export application do the following:
 
   1.Go to the application menu and select Import/Export application from the menu.
