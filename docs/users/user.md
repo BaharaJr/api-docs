@@ -43,7 +43,7 @@ System.
 
 # HRHIS Modules
 
-Services provided in HRHIS are groped into different apps for easier organization of data and maintenance of the system. Currently HRHIS has 10 apps as listed below;
+Services provided in HRHIS are groped into different modules/apps for easier organization of data and maintenance of the system. Currently HRHIS has 10 apps as listed below;
 
 * Health worker data
 
@@ -67,7 +67,7 @@ Services provided in HRHIS are groped into different apps for easier organizatio
 
 # Using HRHIS system
 
-1. Accessing HRHIS
+**Accessing HRHIS**
 
 HRHIS system  is available via the [Web](https://hrhis.dhis2udsm.org/). Type `https://hrhis.dhis2udsm.org/` in the address bar/search bar of a web browser(an application used to access the internet such as Internet Explorer, Mozilla Firefox, Google Chrome, Opera, etc.) to access HRHIS login screen  provided that you are connected to the Internet. It is recommended to use Mozilla Firefox or Google Chrome. Internet Explorer is not advised to be used for accessing HRHIS, but if it is necessary to use then, the latest version of the browser can be used). The HRHIS login page will appear as seen below,
 
@@ -77,15 +77,15 @@ After successfully logging in HRHIS, you can access different applications in th
 
 # Health Worker Data Module
 
-This module is used for managing all health worker data. Data entry, updating and viewing is performed in this application. This app is available in the Apps menu. To use Health worker data app the following steps have to be followed:
+ This module is used for managing all health worker data. Data entry, updating and viewing is performed in this application. This app is available in the Apps menu. To use Health worker data app the following steps have to be followed:
 
- 1. Select the Health Worker Data application from the apps menu. This can be done by either searching the apps menu using the search bar available in apps menu or by scrolling down the Apps menu to find data entry app and select it.
+  1. Select the Health Worker Data application from the apps menu. This can be done by either searching the apps menu using the search bar available in apps menu or by scrolling down the Apps menu to find data entry app and select it.
 
- 2. After selecting the data entry app, an interface will appear as shown in the figure below.
+  2. After selecting the data entry app, an interface will appear as shown in the figure below.
 
- 3. From the interface, select the organization unit and the specify the type of data entry form for which data has to be entered.
+  3. From the interface, select the organization unit and the specify the type of data entry form for which data has to be entered.
 
- 4. Form will be displayed with appropriate data based on the specified organization unit.
+  4. Form will be displayed with appropriate data based on the specified organization unit.
 
 # Import/Export Module
 
