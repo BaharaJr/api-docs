@@ -1,5 +1,4 @@
 ---
-id: user
 title: HRHIS User Manual
 sidebar_label: User
 
@@ -42,7 +41,7 @@ This document aims at instructing users on how to use the HRHIS to achieve their
 System.
 
 
-# HRHIS Services
+# HRHIS Modules
 
 Services provided in HRHIS are groped into different apps for easier organization of data and maintenance of the system. Currently HRHIS has 10 apps as listed below;
 
@@ -108,17 +107,17 @@ Note:
 
 Data Quality app is meant to assist in checking the quality of data entered/imported into the system. This is mainly by checking and identifying duplicates that might exist in the data to avoid inconsistency. To access data quality application do the following:
 
-1.Go to the application menu and select Data Quality app
+1. Go to the application menu and select Data Quality app
 
-2.Click on Data Quality application, the data duplicate manager will open up as in Figure below.
+2. Click on Data Quality application, the data duplicate manager will open up as in Figure below.
 
-3.Select form from the list of forms as seen in Figure below
+3. Select form from the list of forms as seen in Figure below
 
-4.Click on check for duplicates after selecting the form, the duplicates will be identified as in Figure below.
+4. Click on check for duplicates after selecting the form, the duplicates will be identified as in Figure below.
 
-5.Click on View Duplicate on one of the identified duplicates, the records associated with such a duplicate will pop up as in Figure below.
+5. Click on View Duplicate on one of the identified duplicates, the records associated with such a duplicate will pop up as in Figure below.
 
-6.Click on one of the records to view the appropriate actions that can be taken on handling the duplicate as in figure
+6. Click on one of the records to view the appropriate actions that can be taken on handling the duplicate as in figure
 
 # Worker-portal
 Is an application meant to enable users to flag any incorrect fields associated with their records in the system. To access worker-portal do the following:
