@@ -96,13 +96,17 @@ After successfully logging in HRHIS, you can access different applications in th
   3.Go to the Data Import Template tab
   4.Select the organization in which you want to import data from the organization unit tree.
   5.Click on Get Import Template to download the template of the form you want to import data. The excel sheet for importing data with all fields in the data entry  will be downloaded
-  6.Go to the excel sheet downloaded and populate the data you want to import into the system or check the excel against the data you have to make sure that the fields are in order.
+
+ 6.Go to the excel sheet downloaded and populate the data you want to import into the system or check the excel against the data you have to make sure that the fields are in order.
 
 Note:
 *You are required to Get Import Templates for every organization unit you want to import data as the data will be uploaded to the organization unit from which the template was downloaded.*
-7.To import data, go to the Data Import tab.
-8.Click on the Data Import File to choose a file you want to import from the computer.
-9.Click on import data to import the data contained in the template to the system. Upon completion of data import the message will be displayed showing the status, the logger will also display the detailed import status. After successful import the data contained in the file will be added to the organization unit selected when downloading the template.
+
+ 7.To import data, go to the Data Import tab.
+
+ 8.Click on the Data Import File to choose a file you want to import from the computer.
+
+ 9.Click on import data to import the data contained in the template to the system. Upon completion of data import the message will be displayed showing the status, the logger will also display the detailed import status. After successful import the data contained in the file will be added to the organization unit selected when downloading the template.
 
 # Data Quality
 
