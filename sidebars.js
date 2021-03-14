@@ -35,6 +35,5 @@ module.exports = {
         ],
       },
     ],
-    "User Manual": ["users/user"],
   },
 };

@@ -38,16 +38,6 @@ module.exports = {
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "GitHub",
-          items: [],
-        },
-        {
-          title: "Contact",
-          items: [],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} UDSM-DHIS2`,
     },
   },
@@ -59,9 +49,22 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/hisptz/hris-api-docs/blob/main/",
         },
+        "docs/users/user": {
+          sidebarPath: require.resolve("./sidebarss.js"),
+          editUrl: "https://github.com/hisptz/hris-api-docs/blob/main/",
+        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+      },
+    ],
+  ],
+  plugins: [
+    [
+      "@docusaurus/preset-classic",
+      {
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
       },
     ],
   ],
