@@ -2,7 +2,6 @@
 id: basics
 title: Introduction
 sidebar_label: Introduction
-slug: /
 ---
 
 # Web API

@@ -18,15 +18,13 @@ module.exports = {
       },
       items: [
         {
-          to: "docs",
-          activeBasePath: "docs",
-          label: "Developer",
+          to: "docs/users/user",
+          label: "User Manual",
           position: "left",
         },
         {
-          to: "docs/users/user",
-          activeBasePath: "docs/users/user",
-          label: "User Manual",
+          to: "docs/developers/basics",
+          label: "Developer",
           position: "left",
         },
         {
@@ -46,25 +44,12 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/hisptz/hris-api-docs/blob/main/",
-        },
-        "docs/users/user": {
-          sidebarPath: require.resolve("./sidebarss.js"),
+          sidebarPath: require.resolve("./sidebars.json"),
           editUrl: "https://github.com/hisptz/hris-api-docs/blob/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      },
-    ],
-  ],
-  plugins: [
-    [
-      "@docusaurus/preset-classic",
-      {
-        showLastUpdateAuthor: true,
-        showLastUpdateTime: true,
       },
     ],
   ],
