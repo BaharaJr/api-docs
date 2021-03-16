@@ -66,16 +66,19 @@ Services provided in HRHIS are groped into different modules/apps for easier org
 * Dashboard
 
 # Using HRHIS system
+Before using any system, one has to get access to it.
 
 **Accessing HRHIS**
 
-HRHIS system  is available via the [Web](https://hrhis.dhis2udsm.org/). Type `https://hrhis.dhis2udsm.org/` in the address bar/search bar of a web browser(an application used to access the internet such as Internet Explorer, Mozilla Firefox, Google Chrome, Opera, etc.) to access HRHIS login screen  provided that you are connected to the Internet. It is recommended to use Mozilla Firefox or Google Chrome. Internet Explorer is not advised to be used for accessing HRHIS, but if it is necessary to use then, the latest version of the browser can be used). The HRHIS login page will appear as seen below,
+HRHIS system  is available via the [Web](https://hrhis.dhis2udsm.org/). Type `https://hrhis.dhis2udsm.org/` in the address bar/search bar of a web browser(an application used to access the internet such as Internet Explorer, Mozilla Firefox, Google Chrome, Opera, etc.) to access HRHIS login screen  provided that you are connected to the Internet.
 
-# Apps Menu
+It is recommended to use Mozilla Firefox or Google Chrome. Internet Explorer is not advised to be used for accessing HRHIS, but if it is found necessary to use then, the latest version of the browser can be used). The HRHIS login page will appear as seen below,
+
+## Apps Menu
 
 After successfully logging in HRHIS, you can access different applications in the system via the apps menu located at the top right hand Conner below the label that shows you name initials as seen in figure below. Each application corresponds to a specific module in the system. The steps to follow working with each module to achieve different user interests have been highlighted in the following sections.
 
-# Health Worker Data Module
+## Health Worker Data Module
 
  This module is used for managing all health worker data. Data entry, updating and viewing is performed in this application. This app is available in the Apps menu. To use Health worker data app the following steps have to be followed:
 
@@ -87,7 +90,7 @@ After successfully logging in HRHIS, you can access different applications in th
 
   4. Form will be displayed with appropriate data based on the specified organization unit.
 
-# Import/Export Module
+## Import/Export Module
 
   Sometimes you may be having a large number of employees’ records which pose a tedious work of adding them one by one into the system. Import/Export application allows users to enter massive data into the system. To access Import/Export application do the following:
 
@@ -111,7 +114,7 @@ After successfully logging in HRHIS, you can access different applications in th
 
    9.Click on import data to import the data contained in the template to the system. Upon completion of data import the message will be displayed showing the status, the logger will also display the detailed import status. After successful import the data contained in the file will be added to the organization unit selected when downloading the template.
 
-# Data Quality
+## Data Quality
 
 Data Quality app is meant to assist in checking the quality of data entered/imported into the system. This is mainly by checking and identifying duplicates that might exist in the data to avoid inconsistency. To access data quality application do the following:
 
@@ -127,7 +130,7 @@ Data Quality app is meant to assist in checking the quality of data entered/impo
 
   6. Click on one of the records to view the appropriate actions that can be taken on handling the duplicate as in figure
 
-# Worker-portal
+## Worker-portal
 Is an application meant to enable users to flag any incorrect fields associated with their records in the system. To access worker-portal do the following:
 
   1.Select Worker-portal from the application menu
@@ -138,7 +141,7 @@ Is an application meant to enable users to flag any incorrect fields associated 
 
   4.Click suggest changes to save. Flagged field will turn into yellow color and the supervisor will be notified to take appropriate measures on the suggested changes.
 
-# HRHIS Reports
+## HRHIS Reports
 Reports include predefined reports that shares templates but
 To access report application do the following:
 
@@ -156,7 +159,7 @@ To access report application do the following:
 
   8.Go to Records reports to access employees reports
 
-# HRHIS Dashboard
+## HRHIS Dashboard
 
 Dashboard is the landing page of the system, it enables users to perform quick analysis on the data entered in the system. Dashboards can contain tables, charts, list and maps.
 
@@ -173,3 +176,22 @@ To create the dashboard do the following:
   5.To edit/delete the item click on(:image)  at the top right of the item and select appropriate action.
 
   6.To delete the dashboard click on icon at the top of the dashboard and select delete on the screen below.
+
+  ## Maintenance Module
+
+  This module is concerned with management of all metadata for HRHIS system operation. To access Maintenance app do the following:
+   1.Select maintenance app from the application menu
+   2.Click on the Maintenance, maintenance window will open up as in Figure below where you can perform various metadata configurations. Go to each tab to configure metadata related to each category.
+   4.ClickClick on plus button to add a metadata in the respective category.
+   5.On adding a metadata new form will be displayed where you will be required to fill in details for the metadata creation as in Figure below.
+   6.Click on image to view metadata available in the respective category, a list of metadata configured will be displayed.
+   7.You can be able to perform various actions on a metadata by clicking on icon at the right of each metadata.
+
+## Data administration
+   This module is concerned with the data analytic resource table in the system. To access data administration module do the following:
+
+   1.Go to the applications menu and select Data Administration app
+
+   2.Click on the app, Data administration screen will open as in Figure below.
+
+   3.To generate a resource table check the check-boxes at the left of every item listed in Figure 69 then click Generate Resource Table. You can also check one item to generate a resource table for it. While generating the resource table, the resource table logs will be displayed to show the progress as in Figure
