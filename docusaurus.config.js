@@ -20,7 +20,7 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/users/user",
+          to: "docs/users/introduction",
           label: "User Manual",
           position: "left",
         },

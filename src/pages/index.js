@@ -13,7 +13,7 @@ function Hero() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <Link
-          to={useBaseUrl("docs/users/user")}
+          to={useBaseUrl("docs/users/introduction")}
           className="button button--primary button--outline button--lg"
         >
           Get Started

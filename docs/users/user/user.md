@@ -1,4 +1,5 @@
 ---
+id: user
 title: HRHIS User Manual
 sidebar_label: User
 ---
