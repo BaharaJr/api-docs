@@ -12,6 +12,8 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: "HRHIS",
+      hideOnScroll: false,
+      //style: "primary",
       logo: {
         alt: "HRHIS Logo",
         src: "img/favicon.png",
@@ -37,6 +39,18 @@ module.exports = {
     footer: {
       style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} UDSM-DHIS2`,
+    },
+    respectPrefersColorScheme: true,
+    switchConfig: {
+      darkIcon: "🌚",
+    },
+    announcementBar: {
+      id: "info",
+      content:
+        "Discover the power of HRHIS through user and developer documentation",
+      backgroundColor: "light-green",
+      textColor: "white",
+      isCloseable: false,
     },
   },
   presets: [

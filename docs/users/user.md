@@ -1,7 +1,6 @@
 ---
 title: HRHIS User Manual
 sidebar_label: User
-
 ---
 
 # INTRODUCTION
