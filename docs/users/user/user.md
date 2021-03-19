@@ -78,7 +78,7 @@ It is recommended to use Mozilla Firefox or Google Chrome. Internet Explorer is 
 ## Apps Menu
 
 After successfully logging in HRHIS, you can access different applications in the system via the apps menu located at the top right hand Conner below the label that shows initials of users' full name as seen in figure below.
-![img alt](/img/apps.png)
+![img alt](/img/apps.pn)
 
 
 
