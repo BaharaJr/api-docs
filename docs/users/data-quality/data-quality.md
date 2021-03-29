@@ -1,10 +1,8 @@
 ---
 id: data-quality
-title: Data Quality
+title: Data Quality Module
 sidebar_label: Data Quality
 ---
-
-## Data Quality
 
 Data Quality app assists in checking the quality of data entered/imported into the system. This is mainly by checking and identifying duplicates that might exist in the data to avoid inconsistency. To access and use data quality application follow the steps below:
   1. Go to the apps menu and select Data Quality app

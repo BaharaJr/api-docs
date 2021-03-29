@@ -1,10 +1,9 @@
 ---
 id: user
-title: Users
+title: User Module
 sidebar_label: User
 ---
 
-# User Module
 
 All user management activities in HRHIS are performed using Users app. These activities include creation, granting and revoking roles  as well as disabling user accounts. To access and use the user module the following steps have to be followed:
 

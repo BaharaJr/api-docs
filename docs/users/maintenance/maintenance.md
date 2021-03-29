@@ -1,10 +1,9 @@
 ---
 id: maintenance
-title: Maintenance
+title: Maintenance Module
 sidebar_lable: Maintenance
 ---
 
-## Maintenance Module
 
 This module is concerned with management of all metadata for HRHIS system operation. To access Maintenance app follow steps below:
 

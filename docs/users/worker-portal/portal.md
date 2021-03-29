@@ -1,11 +1,10 @@
 ---
 id: portal
-title: Worker Portal
+title: Worker Portal Module
 sidebar_label: Worker Portal
 ---
 
 
-## Worker-portal
 This app enables users to flag any incorrect fields associated with their records in the system. To access and use worker-portal app follow the steps below:
 
   1.Select Worker-portal app from the apps menu

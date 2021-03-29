@@ -3,7 +3,6 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
-## Introduction
 
 * HRHIS General Introduction                                                    
 HRHIS is an open-source software for HRH information management developed by the Department of

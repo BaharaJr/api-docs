@@ -1,10 +1,8 @@
 ---
 id: dashboard
-title: Dashboard
+title: Dashboard Module
 sidebar_label: Dashboard
 ---
-
-## HRHIS Dashboard
 
 Dashboard is the default landing page of the system, it enables users to analyze data entered in the system easily and quickly. Dashboards can be inform of tables, charts, list and maps.
 

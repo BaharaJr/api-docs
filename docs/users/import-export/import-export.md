@@ -1,10 +1,9 @@
 ---
 id: import-export
-title: Import and Export Module
+title: Import/Export Module
 sidebar_label: Import - Export
 ---
 
-## Import/Export Module
 
   Sometimes you may be having a large number of employees’ records which pose a tedious work of adding them one by one into the system. Import/Export module allows users to enter massive data into the system. To access Import/Export application follow the steps below:
 

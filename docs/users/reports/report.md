@@ -1,10 +1,9 @@
 ---
 id: report
-title: Report
+title: Report Module
 sidebar_labe: Report
 ---
 
-## HRHIS Reports
 Reports include predefined reports that shares templates but
 To access report application do the following:
 

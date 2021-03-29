@@ -1,10 +1,9 @@
 ---
 id: healthworker
-title: Health Worker Data
+title: Health Worker Data Module
 sidebar_label: Health Worker Data
 ---
 
-# Health Worker Data Module
 
  This module is used for managing all health worker data. Data entry, updating and viewing is performed in this application. This app is available in the Apps menu. To use Health worker data app follow the steps below:
 
