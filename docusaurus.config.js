@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: "/hris-api-docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.png",
+  favicon: "images/favicon.png",
   organizationName: "hisptz", // Usually your GitHub org/user name.
   projectName: "hris-api-docs", // Usually your repo name.
   themeConfig: {
@@ -16,7 +16,7 @@ module.exports = {
       //style: "primary",
       logo: {
         alt: "HRHIS Logo",
-        src: "img/favicon.png",
+        src: "images/favicon.png",
       },
       items: [
         {
