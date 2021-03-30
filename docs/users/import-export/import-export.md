@@ -38,4 +38,4 @@ Note: Always remember to check the filelds available in the excel against the da
 
 ![img alt](/images/ImportingData.png)
 
- Upon completion of data import a message will display the status, the logger will also display the detailed import status. If the import successful, data contained in the imported file will be added to the selected organization unit by downloading the template.
+ Upon completion of data import a message will display the status of the import. The logger will also display the detailed import status. If the import successful, data contained in the imported file will be added to the selected organization unit by downloading the template.
