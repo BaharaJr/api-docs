@@ -5,7 +5,7 @@ sidebar_label: User
 ---
 
 
-All user management activities in HRHIS are performed using Users app. These activities include creation, granting and revoking roles  as well as disabling user accounts. To access and use the user module the following steps have to be followed:
+All user management activities in HRHIS are performed through Users app. These activities include creating new users, granting user roles as well as disabling user accounts. To access and use the user module the following steps have to be followed:
 
  1. Go to application menu and select User application
 
@@ -32,45 +32,48 @@ All user management activities in HRHIS are performed using Users app. These act
    ![img alt](/img/SavingUser.png)
 
 ## Viewing Users ## 
-Click on icon on the bottom left of user menu as shown below below to view the list of system users. 
+Click on the icon on the bottom left of user menu as shown below below to view the list of system users. 
 
   ![img alt](/img/ViewingUsers.png)
 
- Users window will display a list of user accounts and their details.
+ A list of user accounts and their details will be displayed as shown in the figure below.
 
    ![img alt](/img/UserList.png)
 
-List of all users in the system with all associated details will display.Click on the three dots on the far right hand side of any row to view various actions that may be performed on a selected user account as in Figure below.
+Click on the three dots on the far right hand side of any row to view various actions that may be performed on a selected user account as in Figure below.
 
 ![img alt](/img/UserSubMenus.png)
 
 ## To edit user details ##
- 1. select Edit option, User form will open up as displayed in Figure below. 
- 2. Fill in the details 
+ 1. select Edit option, User form will open with respective details prefilled. 
+ 2. Add/change user details in the form. 
  3. click the Save button to save them.
-
-Edit user form Figure
  
 ## To disable user account ##
- 1. Select Disable from among options as seen in the Figure below, then select the reason for disabling the user. 
- 2. Click the Confirm button to confirm disabling that user. The user status will change to disabled.
+ 1. Select Disable from among options as seen in the Figure below,
 
-Disabling user accounts Figure 
+ ![img alt](/img/SubMenuList.png)
 
-NOTE: *Employees with records in the system can be converted to system users through self registration. To perform self registration do the following:
-Go to the login screen and locate the self registration button.*
+ 2. Select the reason for disabling the user account. 
+ 3. Click the Confirm button to confirm disabling the selected user account. The user status will change to disabled.
 
-HRHIS Login screen with self registration button Figure 
-Click on the Self Registration button, a new self registration form will open up as observed in Figure below.
-Provide required details either Email, Check number, Registration number or NIDA number as recorded in the system.
+Employees with records in the system can become system users through self registrationlink available via login page of HRHIS. To perform self registration follow the steps below.
 
-HRHIS Self registration form Figure
-Provide an email address in which the activation link must be sent to. 
+ 1. On the login screen select the self registration button as shown below
+
+ ![img alt](/img/SelfRegistrationBtn.png)
+
+ A new self registration form will open up as observed in Figure below.
+
+![img alt](/img/SelfRegistrationForm.png)
+
+ 2. Provide either Email, Check number, Registration number or NIDA number as required.
+
+ 3. Provide an email address through which an activation link will be sent.
 
 *Note:This email must be the exact email registered with the record in the system*
 
-click the register button to register a new user. 
-An email with your user name and  activation link will be sent to the specified email, the activation link should be used within an hour to create a password. After one hour is gone, the link expires.
+4. click the register button to complete self registration. An email with your user name and  activation link will be sent to the specified email. The activation link should be used within an hour to create a password. After one hour, the link expires.
 
 After successful creation of password you can now login to the system.
 
