@@ -59,7 +59,7 @@ Click on the three dots on the far right hand side of any row to view various ac
 ## To disable user account ##
  1. Select Disable from among options as seen in the Figure below,
 
- ![img alt](/img/SubMenuList.png)
+ ![img alt](/images/SubMenuList.png)
 
  2. Select the reason for disabling the user account. 
  3. Click the Confirm button to confirm disabling the selected user account. The user status will change to disabled.
@@ -68,11 +68,11 @@ Employees with records in the system can become system users through self regist
 
  1. On the login screen select the self registration button as shown below
 
- ![img alt](/img/SelfRegistrationBtn.png)
+ ![img alt](/images/SelfRegistrationBtn.png)
 
  A new self registration form will open up as observed in Figure below.
 
-![img alt](/img/SelfRegistrationForm.png)
+![img alt](/images/SelfRegistrationForm.png)
 
  2. Provide either Email, Check number, Registration number or NIDA number as required.
 

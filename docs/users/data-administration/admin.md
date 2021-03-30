@@ -4,7 +4,7 @@ title: Data Administration Module
 sidebar_label: Data Administration
 ---
 
-This module is concerned with the data analytic resource table in the system. To access data administration module do the following:
+This module is concerned with the data analytic resource table in the system. To access data administration module follow the steps below:
 
 1.Go to the applications menu and select Data Administration app
 
