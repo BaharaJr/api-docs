@@ -30,13 +30,10 @@ figure below.
 
 3. click the Save button to save the user account.
 
+ ![img alt](/images/SavingUser.png)
+
  Viewing Users 
-Click on the icon on the bottom left of user menu as shown below below to view the list of system users. 
-![img alt](/images/SavingUser.png)
-
- Viewing Users
-
- A list of user accounts and their details will be displayed as shown in the figure below.
+  A list of user accounts and their details will be displayed as shown in the figure below.
 Click on icon on the bottom left of user menu as shown below below to view the list of system users.
 
 ![img alt](/images/ViewingUsers.png)
