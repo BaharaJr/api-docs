@@ -9,7 +9,11 @@ This app enables users to flag any incorrect fields associated with their record
 
   1.Select Worker-portal app from the apps menu
 
+  ![img alt](/images/SelectingWorkerPortal.png)
+
   2.Click on the Worker-portal application, user profile window will open up allowing the user to flag incorrect fields.
+
+  ![img alt](/images/SelectingWorkerPortal.png)
 
   3.Click on the flag beside an incorrect field and fill the correct details in the fields.
 

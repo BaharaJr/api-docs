@@ -70,11 +70,13 @@ Before using any system, one has to get access to it.
 HRHIS system is available via the [Web](https://hrhis.dhis2udsm.org/). Type `https://hrhis.dhis2udsm.org/` in the address bar/search bar of a web browser(an application used to access the internet such as Internet Explorer, Mozilla Firefox, Google Chrome, Opera, etc.) to access HRHIS login screen provided that you are connected to the Internet.
 
 It is recommended to use Mozilla Firefox or Google Chrome. Internet Explorer is not advised to be used for accessing HRHIS, but if it is found necessary to use then, the latest version of the browser can be used). The HRHIS login page will appear as seen below,
+
 ![img alt](/images/login.png)
 
 ## Apps Menu
 
 After successfully logging in HRHIS, you can access different applications in the system via the apps menu located at the top right hand Conner below the label that shows initials of users' full name as seen in figure below.
+
 ![img alt](/images/apps.png)
 
 Each application corresponds to a specific module in the system. The steps to follow working with each module to achieve different user interests have been highlighted in the following sections.
