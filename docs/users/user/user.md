@@ -8,7 +8,7 @@ All user management activities in HRHIS are performed using Users app. These act
 
 1.  Go to application menu and select User application
 
-    ![img alt](/img/selectuser.png)
+    ![img alt](/img/openuser.png)
 
 2.  Click on Users, Users module window will open up as in Figure below. With Users and user Roles tabs.
 
