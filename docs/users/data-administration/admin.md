@@ -7,6 +7,8 @@ sidebar_label: Data Administration
    This module is concerned with the data analytic resource table in the system. To access data administration module do the following:
 
    1.Go to the applications menu and select Data Administration app
+   
+   ![img alt](/img/login.png)
 
    2.Click on the app, Data administration screen will open as in Figure below.
 

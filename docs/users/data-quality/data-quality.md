@@ -6,6 +6,7 @@ sidebar_label: Data Quality
 
 Data Quality app assists in checking the quality of data entered/imported into the system. This is mainly by checking and identifying duplicates that might exist in the data to avoid inconsistency. To access and use data quality application follow the steps below:
   1. Go to the apps menu and select Data Quality app
+  ![img alt](/img/login.png)
 
   2. Click on Data Quality application, the data duplicate manager will open up as shown in Figure below.
 

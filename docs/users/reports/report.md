@@ -8,6 +8,7 @@ Reports include predefined reports that shares templates but
 To access report application do the following:
 
   1.Select report app from application menu
+  ![img alt](/img/login.png)
 
   2.Click on the report, the report window will open up to allow a user to specify the kind of report they want to access as in Figure 23. The system has two report groups; Metrics and Employee Reports.
 

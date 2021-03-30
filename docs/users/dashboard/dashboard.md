@@ -9,6 +9,7 @@ Dashboard is the default landing page of the system, it enables users to analyze
 To create the dashboard follow the steps below:
 
   1.Click on the + sign located at the top right side of your home page, dashboard form will be displayed as in Figure below to enable user to specify the name of dashboard.
+  ![img alt](/img/login.png)
 
   2.Click save to save the dashboard, a new dashboard will be created as shown in Figure below.
 

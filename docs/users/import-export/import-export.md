@@ -8,6 +8,8 @@ sidebar_label: Import - Export
   Sometimes you may be having a large number of employees’ records which pose a tedious work of adding them one by one into the system. Import/Export module allows users to enter massive data into the system. To access Import/Export application follow the steps below:
 
   1. Go to the application menu and select Import/Export application from the menu.
+  
+  ![img alt](/img/login.png)
 
   2. Click on the Import/Export application, HRHIS Import/Export application window will open up as in Figure below
 
