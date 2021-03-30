@@ -4,6 +4,4 @@ title: Messaging
 sidebar_label: Messaging
 ---
 
-
-
-![img alt](/img/login.png)
+![img alt](/images/login.png)

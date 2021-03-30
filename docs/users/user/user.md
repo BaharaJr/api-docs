@@ -8,42 +8,42 @@ All user management activities in HRHIS are performed using Users app. These act
 
 1.  Go to application menu and select User application
 
-    ![img alt](/img/openuser.png)
+    ![img alt](/images/openuser.png)
 
 2.  Click on Users, Users module window will open up as in Figure below. With Users and user Roles tabs.
 
-    ![img alt](/img/UserPage.png)
+    ![img alt](/images/UserPage.png)
 
 ## To create new user
 
 1. click on plus button as shown below
 
-   ![img alt](/img/CreatingUser.png)
+   ![img alt](/images/CreatingUser.png)
 
 A new form for adding user will open up as in
 figure below.
 
-![img alt](/img/NewUserForm.png)
+![img alt](/images/NewUserForm.png)
 
 2. Fill in all the user's details and assign appropriate user roles and organisation unit
 
 3. click the Save button to save the user account.
 
-![img alt](/img/SavingUser.png)
+![img alt](/images/SavingUser.png)
 
 ## Viewing Users
 
 Click on icon on the bottom left of user menu as shown below below to view the list of system users.
 
-![img alt](/img/ViewingUsers.png)
+![img alt](/images/ViewingUsers.png)
 
 Users window will display a list of user accounts and their details.
 
-![img alt](/img/UserList.png)
+![img alt](/images/UserList.png)
 
 List of all users in the system with all associated details will display.Click on the three dots on the far right hand side of any row to view various actions that may be performed on a selected user account as in Figure below.
 
-![img alt](/img/UserSubMenus.png)
+![img alt](/images/UserSubMenus.png)
 
 ## To edit user details
 
