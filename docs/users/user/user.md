@@ -15,7 +15,7 @@ Algitl user management activities in HRHIS are performed through Users app. Thes
 
     ![img alt](/images/UserPage.png)
 
-## To create new user
+ To create new user
 
 1. click on plus button as shown below
 
@@ -30,11 +30,11 @@ figure below.
 
 3. click the Save button to save the user account.
 
-## Viewing Users ## 
+ Viewing Users 
 Click on the icon on the bottom left of user menu as shown below below to view the list of system users. 
 ![img alt](/images/SavingUser.png)
 
-## Viewing Users
+ Viewing Users
 
  A list of user accounts and their details will be displayed as shown in the figure below.
 Click on icon on the bottom left of user menu as shown below below to view the list of system users.
@@ -49,14 +49,12 @@ Click on the three dots on the far right hand side of any row to view various ac
 
 ![img alt](/images/UserSubMenus.png)
 
-## To edit user details
-
-## To edit user details ##
+ Editing user details
  1. select Edit option, User form will open with respective details prefilled. 
  2. Add/change user details in the form. 
  3. click the Save button to save them.
  
-## To disable user account ##
+ Disabling user accounts:
  1. Select Disable from among options as seen in the Figure below,
 
  ![img alt](/images/SubMenuList.png)
@@ -75,23 +73,19 @@ Employees with records in the system can become system users through self regist
 ![img alt](/images/SelfRegistrationForm.png)
 
  2. Provide either Email, Check number, Registration number or NIDA number as required.
-
  3. Provide an email address through which an activation link will be sent.
+
+ Editing User Details:
 1.  select Edit option, User form will open up as displayed in Figure below.
 2.  Fill in the details
 3.  click the Save button to save them.
 
-Edit user form Figure
-
-## To disable user account
-
-1.  Select Disable from among options as seen in the Figure below, then select the reason for disabling the user.
+ Disabling user accounts:
+1.  From the users submenu, select 'Disable' from among options as seen in the Figure below, then select the reason for disabling the user.
 2.  Click the Confirm button to confirm disabling that user. The user status will change to disabled.
 
-Disabling user accounts Figure
-
 NOTE: _Employees with records in the system can be converted to system users through self registration. To perform self registration do the following:
-Go to the login screen and locate the self registration button._
+Go to the login screen and locate the self registration button.
 
 HRHIS Login screen with self registration button Figure
 Click on the Self Registration button, a new self registration form will open up as observed in Figure below.
