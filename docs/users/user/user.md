@@ -47,7 +47,11 @@ Click on the three dots on the far right hand side of any row to view various ac
 ![img alt](/images/UserSubMenus.png)
 
  Editing user details
- 1. select Edit option, User form will open with respective details prefilled. 
+ 1. select Edit option from the submenu list as seen below.
+ 
+ ![img alt](/images/UserSubMenus.png)
+
+  User form will open with respective details prefilled. 
  2. Add/change user details in the form. 
  3. click the Save button to save them.
  
@@ -72,27 +76,7 @@ Employees with records in the system can become system users through self regist
  2. Provide either Email, Check number, Registration number or NIDA number as required.
  3. Provide an email address through which an activation link will be sent.
 
- Editing User Details:
-1.  select Edit option, User form will open up as displayed in Figure below.
-2.  Fill in the details
-3.  click the Save button to save them.
-
- Disabling user accounts:
-1.  From the users submenu, select 'Disable' from among options as seen in the Figure below, then select the reason for disabling the user.
-2.  Click the Confirm button to confirm disabling that user. The user status will change to disabled.
-
-NOTE: _Employees with records in the system can be converted to system users through self registration. To perform self registration follow the steps below:
-
-1. Go to the login screen and locate the self registration button.
-
-HRHIS Login screen with self registration button Figure
-Click on the Self Registration button, a new self registration form will open up as observed in Figure below.
-Provide required details either Email, Check number, Registration number or NIDA number as recorded in the system.
-
-HRHIS Self registration form Figure
-Provide an email address in which the activation link must be sent to.
-
-_Note:This email must be the exact email registered with the record in the system_
+_Note:This email must be the exact email registered with the record in the system.
 
 4. click the register button to complete self registration. An email with your user name and  activation link will be sent to the specified email. The activation link should be used within an hour to create a password. After one hour, the link expires.
 click the register button to register a new user.
