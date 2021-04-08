@@ -81,8 +81,9 @@ Employees with records in the system can become system users through self regist
 1.  From the users submenu, select 'Disable' from among options as seen in the Figure below, then select the reason for disabling the user.
 2.  Click the Confirm button to confirm disabling that user. The user status will change to disabled.
 
-NOTE: _Employees with records in the system can be converted to system users through self registration. To perform self registration do the following:
-Go to the login screen and locate the self registration button.
+NOTE: _Employees with records in the system can be converted to system users through self registration. To perform self registration follow the steps below:
+
+1. Go to the login screen and locate the self registration button.
 
 HRHIS Login screen with self registration button Figure
 Click on the Self Registration button, a new self registration form will open up as observed in Figure below.
