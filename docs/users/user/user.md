@@ -6,7 +6,7 @@ sidebar_label: User
 
 All user management activities in HRHIS are performed using Users app. These activities include creation, granting and revoking roles as well as disabling user accounts. To access and use the user module the following steps have to be followed:
 
-Algitl user management activities in HRHIS are performed through Users app. These activities include creating new users, granting user roles as well as disabling user accounts. To access and use the user module the following steps have to be followed:
+All user management activities in HRHIS are performed through Users app. These activities include creating new users, granting user roles as well as disabling user accounts. To access and use the user module the following steps have to be followed:
 1.  Go to application menu and select User application
 
     ![img alt](/images/openuser.png)
@@ -32,9 +32,8 @@ figure below.
 
  ![img alt](/images/SavingUser.png)
 
- Viewing Users 
-  A list of user accounts and their details will be displayed as shown in the figure below.
-Click on icon on the bottom left of user menu as shown below below to view the list of system users.
+ Viewing Existing Users 
+  Click on icon on the bottom left of user menu as shown below below to view the list of system users.A list of user accounts and their details will be displayed as shown in the figure below.
 
 ![img alt](/images/ViewingUsers.png)
 
@@ -74,14 +73,11 @@ Employees with records in the system can become system users through self regist
 ![img alt](/images/SelfRegistrationForm.png)
 
  2. Provide either Email, Check number, Registration number or NIDA number as required.
+
  3. Provide an email address through which an activation link will be sent.
 
 _Note:This email must be the exact email registered with the record in the system.
 
-4. click the register button to complete self registration. An email with your user name and  activation link will be sent to the specified email. The activation link should be used within an hour to create a password. After one hour, the link expires.
-click the register button to register a new user.
-An email with your user name and activation link will be sent to the specified email, the activation link should be used within an hour to create a password. After one hour is gone, the link expires.
+4. click the register button to complete self registration. An email with user name and  activation link will be sent to the specified email. The activation link should be used within an hour to create a password. After one hour, the link expires.
 
-After successful creation of password you can now login to the system.
-
-To login to the system provide your username and password.
+After successful creation of password a new user can login to the system by providing correct username and password.
