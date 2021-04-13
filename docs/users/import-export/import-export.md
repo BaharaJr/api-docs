@@ -18,7 +18,7 @@ Sometimes you may be having a large number of employees’ records which pose a 
 
 ![img alt](/images/SelectingDataImportTemplate.png)
 
-4. From the organization unit tree, select the organization in which you want to import data.
+4. From the organization unit tree, select the organization in which data has to be imported.
 
 5. Click on Get Import Template to download the template of the form in which data has to be imported. The excel sheet for importing data with all data entry fields will be downloaded.
 
@@ -38,4 +38,4 @@ Note: Always remember to check the filelds available in the excel against the da
 
 ![img alt](/images/ImportingData.png)
 
- Upon completion of data import a message will display the status of the import. The logger will also display the detailed import status. If the import successful, data contained in the imported file will be added to the selected organization unit by downloading the template.
+ Upon completion of data import a message will display the status of the import. The logger will also display the detailed import status. If the import process is successful, data contained in the imported file will be added to the selected organization unit by downloading the template.
