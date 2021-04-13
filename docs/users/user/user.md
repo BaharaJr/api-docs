@@ -15,8 +15,8 @@ All user management activities in HRHIS are performed through Users app. These a
 
     ![img alt](/images/UserPage.png)
 
- To create new user
-
+ ## Creating a new user ##
+To create a new user follow the steps below
 1. click on plus button as shown below
 
    ![img alt](/images/CreatingUser.png)
@@ -32,7 +32,7 @@ figure below.
 
  ![img alt](/images/SavingUser.png)
 
- Viewing Existing Users 
+ ## Viewing Existing Users ##
   Click on icon on the bottom left of user menu as shown below below to view the list of system users.A list of user accounts and their details will be displayed as shown in the figure below.
 
 ![img alt](/images/ViewingUsers.png)
@@ -45,14 +45,16 @@ Click on the three dots on the far right hand side of any row to view various ac
 
 ![img alt](/images/UserSubMenus.png)
 
- Editing user details
- 1. select Edit option from the submenu list as seen below.
+ ## Editing user details ##
+ 1. Select Edit option from the submenu list as seen below.
  
  ![img alt](/images/UserSubMenus.png)
 
   User form will open with respective details prefilled. 
+
  2. Add/change user details in the form. 
- 3. click the Save button to save them.
+
+ 3. click the Save button to save the new details.
  
  Disabling user accounts:
  1. Select Disable from among options as seen in the Figure below,
@@ -60,11 +62,13 @@ Click on the three dots on the far right hand side of any row to view various ac
  ![img alt](/images/SubMenuList.png)
 
  2. Select the reason for disabling the user account. 
+
  3. Click the Confirm button to confirm disabling the selected user account. The user status will change to disabled.
 
-Employees with records in the system can become system users through self registrationlink available via login page of HRHIS. To perform self registration follow the steps below.
+## Self Registration ## 
+Employees with records in the system can become system users through self registration. The self registration link is available via login page of HRHIS. To perform self registration follow the steps below.
 
- 1. On the login screen select the self registration button as shown below
+ 1. On the login screen click the self registration button as shown below
 
  ![img alt](/images/SelfRegistrationBtn.png)
 
