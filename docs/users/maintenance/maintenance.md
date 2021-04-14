@@ -7,7 +7,6 @@ sidebar_lable: Maintenance
 This module is concerned with management of all metadata for HRHIS system operation. To access Maintenance app follow steps below:
 
 1.Select maintenance app from the application menu
-![img alt](/images/login.png)
 
 2.Click on the Maintenance, maintenance window will open up as in Figure below where you can perform various metadata configurations. Go to each tab to configure metadata related to each category
 

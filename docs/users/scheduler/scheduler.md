@@ -7,7 +7,7 @@ sidebar_label: Scheduler
 This module deals with management of all scheduled application processes in the HRHIS System. This includes synchronization of data from various source systems. The process may be run manually or automatically as per schedule. To access and use the Scheduler application the following steps should be followed:
 
 1.  Goto application menu and select Scheduler App.
-    ![img alt](/images/login.png)
+
 
 Figure: Selecting Scheduler Application 2. Click on the Scheduler, the application will open up and the Scheduler application window will open up as in Figure with three submenus on the left hand side.
 

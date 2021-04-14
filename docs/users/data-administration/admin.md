@@ -8,7 +8,6 @@ This module is concerned with the data analytic resource table in the system. To
 
 1.Go to the applications menu and select Data Administration app
 
-![img alt](/images/login.png)
 
 2.Click on the app, Data administration screen will open as in Figure below.
 

@@ -40,9 +40,12 @@ As an example, here Public employees from has been selected.
 
 5. Click on View Duplicate from one of the rows of the displayed list, the records associated with such a duplicate will pop up as seen in Figure below.
 
-![img alt](/images/DuplicateDetails.png)
+![img alt](/images/ResolvingDuplicates.png)
 
-6. Click on one of the records to view the appropriate actions that can be taken on handling the duplicate as shown in figure below.
+6. Duplicates can be handled by keeping or removing a row of a duplicated record or part of it.
+ -keeping an entire record
+ -deleting an entire record
+ 
 
 ## Record Consistency Checker ##
 The records consistency checker 

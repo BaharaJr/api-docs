@@ -8,10 +8,14 @@ This module is used for managing all health worker data. Data entry, updating an
 
 1. Select the Health Worker Data application from the apps menu. This can be done by either searching the apps menu using the search bar available in apps menu or by scrolling down the Apps menu to find data entry app and select it.
 
-![img alt](/images/login.png)
+![img alt](/images/ResolvingDuplicates.png)
 
 2. After selecting the data entry app, an interface will appear as shown in the figure below.
 
+![img alt](/images/ResolvingDuplicates.png)
+
 3. From the interface, select the organization unit and the specify the type of data entry form for which data has to be entered.
+
+![img alt](/images/ResolvingDuplicates.png)
 
 4. Form will be displayed with appropriate data based on the specified organization unit.
