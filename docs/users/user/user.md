@@ -9,11 +9,11 @@ All user management activities in HRHIS are performed using Users app. These act
 All user management activities in HRHIS are performed through Users app. These activities include creating new users, granting user roles as well as disabling user accounts. To access and use the user module the following steps have to be followed:
 1.  Go to application menu and select User application
 
-    ![img alt](/images/openuser.png)
+ ![img alt](/images/openuser.png)
 
 2.  Click on Users, Users module window will open up as in Figure below. With Users and user Roles tabs.
 
-    ![img alt](/images/UserPage.png)
+![img alt](/images/UserPage.png)
 
  ## Creating a new user ##
 To create a new user follow the steps below
