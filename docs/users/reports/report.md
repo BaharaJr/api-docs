@@ -144,7 +144,7 @@ This report gives infromation of all enrolled students in different health train
 
 ii. Health Training Institutions
 
-This report provides detailed information of registered health trainning institutions in the country. To view this report do the following.
+This report provides detailed information of registered health trainning institutions in the country. To view this report follow the steps below.
 
 1. From the 'Select report group tab', select 'Pre-service'
 
