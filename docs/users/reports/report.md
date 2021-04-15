@@ -130,7 +130,7 @@ i. Pre service
 
 This report gives infromation of all enrolled students in different health training institutions. To open and view this report follow the steps below.
 
-1. From the 'Select report group tab', select 'Pre-service'
+1. From the 'Select report group' tab, select 'Pre-service'
 
 ![img alt](/images/SelectingPreServiceReportGroup.png)
 
