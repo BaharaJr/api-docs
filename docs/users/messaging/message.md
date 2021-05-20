@@ -3,7 +3,7 @@ id: message
 title: Messaging
 sidebar_label: Messaging
 ---
-This module facilitates communication between users and system administrators. To use the meassaging application, click on the message icon at the top right hand side of the tool bar as indicated below.
+The user module facilitates communication between system users and system administrators. It enhances better user support. To use the meassaging application, click on the message icon at the top right hand side of the tool bar as indicated below.
 
 ![img alt](/images/MessagingApp.png)
 
