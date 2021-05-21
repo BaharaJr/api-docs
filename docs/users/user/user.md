@@ -6,12 +6,11 @@ sidebar_label: User
 
 All user management activities in HRHIS are performed using Users app. These activities include creation, granting and revoking roles as well as disabling user accounts. To access and use the user module the following steps have to be followed:
 
-All user management activities in HRHIS are performed through Users app. These activities include creating new users, granting user roles as well as disabling user accounts. To access and use the user module the following steps have to be followed:
 1.  Go to application menu and select User application
 
  ![img alt](/images/openuser.png)
 
-2.  Click on Users, Users module window will open up as in Figure below. With Users and user Roles tabs.
+2.  Click on Users, Users module window will open up as in shown below. With Users and user Roles tabs. 
 
 ![img alt](/images/UserPage.png)
 
@@ -21,8 +20,7 @@ To create a new user follow the steps below
 
    ![img alt](/images/CreatingUser.png)
 
-A new form for adding user will open up as in
-figure below.
+A new form for adding user details will open up as indicated below.
 
 ![img alt](/images/NewUserForm.png)
 
@@ -33,15 +31,15 @@ figure below.
  ![img alt](/images/SavingUser.png)
 
  ## Viewing Existing Users ##
-  Click on icon on the bottom left of user menu as shown below below to view the list of system users.A list of user accounts and their details will be displayed as shown in the figure below.
+  Click on icon on the bottom left of user menu as shown below below to view the list of system users. A list of user accounts and their respective details will be displayed as indicated below.
 
 ![img alt](/images/ViewingUsers.png)
 
-Users window will display a list of user accounts and their details.
+Users window will display a list of user accounts and their respective details.
 
 ![img alt](/images/UserList.png)
 
-Click on the three dots on the far right hand side of any row to view various actions that may be performed on a selected user account as in Figure below.
+Click on the three dots on the far right hand side of any row to view various actions that may be performed on a selected user account as indicated below.
 
 ![img alt](/images/UserSubMenus.png)
 
