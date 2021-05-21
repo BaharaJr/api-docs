@@ -25,13 +25,35 @@ Note: If it happens that by any means the Fields tab is not selected, You can se
 
 Three major actions that can be perfomed on a field in field management page are listed below
 
-a. Add/Create a new field
-b. Edit field
-c. Delete
+a. Adding/Creating a new field
+
+
+b. Editing a field
+
+c. Deleting a field
+
 d. View field details
 
 ### A. Adding/ Creating a new field ###
+To create a new field in the system, the following steps have to be followed.
+1. Click the Plus button located at the bottom right hand corner of the page as indicated below. 
+
+![img alt](/images/creatingNewField.png)
+
+A new form will pop up, user will be required to fill details for the new field that needs to be created.
+
+![img alt](/images/newFieldForm.png)
+
+2. Click the button captioned 'create' at the bottom right hand side of the field form. Now you will be able to see the name of the field you've just created at the bottom of the fields' list.
+
+![img alt](/images/NewFieldList.png)
+
+Note: If you are getting difficulties seing the newly created field, just search for it by typing its name in the search bars available at the top of the fields' page.
+
 ### B. Editing a field ###
+
+To edit an existing field in the system, follow the steps explained and illustreted below.
+1.
 ### C. Deleting a field ###
 ### C. Viewing field details ###
 
@@ -41,8 +63,11 @@ d. View field details
 Three major actions that can be perfomed on a field in field management page are listed below
 
 a. Add/Create a new field group
+
 b. Edit field field group
+
 c. Delete a field group
+
 d. View field group details
 
 ### A. Adding/ Creating a new field group ###
@@ -56,8 +81,11 @@ d. View field group details
 Three major actions that can be perfomed on a field in field management page are listed below
 
 a. Add/Create a new field option
+
 b. Edit field option
+
 c. Delete field option
+
 d. View field option details 
 
 ### A. Adding/ Creating a new field option ###
