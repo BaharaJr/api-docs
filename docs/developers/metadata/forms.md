@@ -193,6 +193,29 @@ sidebar_label: Forms
 }
 ```
 
+** Get one form section by id**
+
+** Endpoint **
+
+```JS
+/api/formSections/LktJNzYXMr1ag
+```
+
+`METHOD:` _GET_
+
+** Response **
+
+```JSON
+{
+    "id": "LktJNzYXMr1ag",
+    "created": "2021-05-28T14:04:47.000Z",
+    "lastUpdated": "2021-05-28T11:05:01.000Z",
+    "name": "New Form Section Name",
+    "sort": 2
+  }
+}
+```
+
 - Deleting a Section
 
 ** Endpoint **
@@ -214,6 +237,106 @@ sidebar_label: Forms
     "lastUpdated": "2021-05-28T11:05:01.000Z",
     "name": "New Form Section Name",
     "sort": 2
+  }
+}
+```
+
+
+## Form Section Fields
+
+- Adding fields to form sections
+
+** Endpoint **
+
+```JS
+/api/formSections
+```
+
+`METHOD:` _POST_
+
+** Request Payload **
+
+```JSON
+{
+    "field": {"id":"zP4fW5J28iO36"},
+    "formSection":{"id":"c44qXOVKGhjUW"},
+    "sort":2
+}
+```
+
+** Response **
+
+```JSON
+{
+  "id": "xy5LOzri7afnK",
+  "field": {
+    "id": "zP4fW5J28iO36"
+  },
+  "formSection": {
+    "id": "LktJNzYXMr1ag"
+  },
+  "sort": 2
+
+```
+
+- Updating a form section
+
+** Endpoint **
+
+```JS
+/api/formSectionFieldMembers/xy5LOzri7afnK
+```
+
+`METHOD:` _PUT_
+
+** Request Payload **
+
+```JSON
+{
+    "field": {"id":"zP4fW5J28iO36"},
+    "formSection":{"id":"LktJNzYXMr1ag"},
+    "sort":3
+}
+```
+
+> Where ** xy5LOzri7afnK ** is the section field member id
+
+** Response **
+
+```JSON
+{
+  "message": "Item with identifier xy5LOzri7afnK updated successfully.",
+  "payload": {
+    "id": "xy5LOzri7afnK",
+    "sort": 3,
+    "field": {
+      "id": "zP4fW5J28iO36"
+    },
+    "formSection": {
+      "id": "LktJNzYXMr1ag"
+    }
+  }
+}
+```
+
+- Deleting a Section
+
+** Endpoint **
+
+```JS
+/api/formSectionFieldMembers/LktJNzYXMr1ag
+```
+
+`METHOD:` _DELETE_
+
+** Response **
+
+```JSON
+{
+  "message": "Object with identifier xy5LOzri7afnK deleted successfully",
+  "payload": {
+    "id": "xy5LOzri7afnK",
+    "sort": 3
   }
 }
 ```
