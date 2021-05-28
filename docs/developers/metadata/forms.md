@@ -10,11 +10,15 @@ sidebar_label: Forms
 
 - Adding a form sections
 
-`Endpoint`
+** Endpoint **
 
 ```JS
 /api/formSections
 ```
+
+`METHOD:` _POST_
+
+** Request Payload **
 
 ```JSON
 {
@@ -24,16 +28,192 @@ sidebar_label: Forms
 }
 ```
 
+** Response **
+
+```JSON
+{
+  "id": "LktJNzYXMr1ag",
+  "name": "Wattss Information",
+  "sort": 2,
+  "form": {
+    "id": "Q9xLAnuFkRLsF"
+  },
+  "created": "2021-05-28T17:28:32.000Z",
+  "lastUpdated": "2021-05-28T17:28:32.000Z"
+}
+```
+
 - Updating a form section
 
-`Endpoint`
+** Endpoint **
+
+```JS
+/api/formSections/LktJNzYXMr1ag
+```
+
+`METHOD:` _PUT_
+
+** Request Payload **
+
+```JSON
+{
+    "name": "New Form Section Name"
+}
+```
+
+> Where ** LktJNzYXMr1ag ** is the section id
+
+** Response **
+
+```JSON
+{
+  "message": "Item with identifier LktJNzYXMr1ag updated successfully.",
+  "payload": {
+    "id": "LktJNzYXMr1ag",
+    "created": "2021-05-28T14:04:47.000Z",
+    "lastUpdated": "2021-05-28T11:05:01.000Z",
+    "name": "New Form Section Name",
+    "sort": 2
+  }
+}
+```
+
+** Getting Sections **
+
+** Endpoint **
 
 ```JS
 /api/formSections
 ```
+`METHOD:` _GET_
+
+** Response **
 
 ```JSON
-{"name": "Watts Information",
-"sort": 2,
-"form":{"id":"USi3thE3EQ5Ey"}}
+{
+  "pager": {
+    "page": 1,
+    "pageSize": 100,
+    "pageCount": 1,
+    "total": 1,
+    "nextPage": "/api/formSections?page=2"
+  },
+  "formSections": [
+    {
+    "id": "LktJNzYXMr1ag",
+    "created": "2021-05-28T14:04:47.000Z",
+    "lastUpdated": "2021-05-28T11:05:01.000Z",
+    "name": "New Form Section Name",
+    "sort": 2
+    }
+  ]
+}
+```
+
+** Filtering form sections **
+> Form section can be filtered according to fields it posses i.e names, ids, sort etc
+
+** Endpoint ** 
+
+```JS
+/api/formSections?filter=sort:eq:2
+```
+
+`METHOD:` _GET_
+
+> This will return all form sections with sort number equal to 2
+
+** Response **
+
+```JSON
+{
+  "pager": {
+    "page": 1,
+    "pageSize": 100,
+    "pageCount": 2,
+    "total": 2,
+    "nextPage": "/api/formSections?page=2"
+  },
+  "formSections": [
+    {
+      "id": "NzbLeyRHqfmMk",
+      "created": "2021-05-28T12:10:29.000Z",
+      "lastUpdated": "2021-05-28T12:10:29.000Z",
+      "name": "Water Information",
+      "sort": 2
+    },
+    {
+    "id": "LktJNzYXMr1ag",
+    "created": "2021-05-28T14:04:47.000Z",
+    "lastUpdated": "2021-05-28T11:05:01.000Z",
+    "name": "New Form Section Name",
+    "sort": 2
+    }
+  ]
+}
+```
+
+** Form sections field selctions **
+> Form section fields can be selected to get only fields you need in your payload i.e names, ids, sort etc
+
+** Endpoint ** 
+
+```JS
+/api/formSections?fields=id,sort
+```
+
+`METHOD:` _GET_
+
+> This will return only id sort in the form sections' palyoad
+
+ ** Response **
+```JSON
+{
+  "pager": {
+    "page": 1,
+    "pageSize": 100,
+    "pageCount": 3,
+    "total": 3,
+    "nextPage": "/api/formSections?page=2"
+  },
+  "formSections": [
+    {
+      "id": "CKDWfWWGdoXNM",
+      "sort": 2
+    },
+    {
+      "id": "RMNu5ax36SE8V",
+      "sort": 1
+    },
+    {
+      "id": "MUAgsiEdnwiot",
+      "sort": 3
+    }
+  ]
+}
+```
+
+- Deleting a Section
+
+** Endpoint **
+
+```JS
+/api/formSections/LktJNzYXMr1ag
+```
+
+`METHOD:` _DELETE_
+
+** Response **
+
+```JSON
+{
+  "message": "Object with identifier LktJNzYXMr1ag deleted successfully",
+  "payload": {
+    "id": "LktJNzYXMr1ag",
+    "created": "2021-05-28T14:04:47.000Z",
+    "lastUpdated": "2021-05-28T11:05:01.000Z",
+    "name": "New Form Section Name",
+    "sort": 2
+  }
+}
 ```
