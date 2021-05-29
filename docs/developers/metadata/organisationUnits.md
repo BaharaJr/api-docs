@@ -446,6 +446,18 @@ sidebar_label: Organisation Units
 
 ```
 
+<p> <strong>NOTE</strong>: All filtering mechanisms, can be combined to produce a lobust search strategy</p>
+
+- Available search and filter Operators
+
+| Operator | Types                                                                                 | Value Required | Description                             |
+| -------- | ------------------------------------------------------------------------------------- | -------------- | --------------------------------------- |
+| eq       | string \| boolean \| integer \| float \| enum \| collection (checks for size) \| date | true           | Equality                                |
+| like     | string                                                                                | true           | Case sensitive string, match anywhere   |
+| ilike    | string                                                                                | true           | Case insensitive string, match anywhere |
+| in       | string \| boolean \| integer \| float \| date                                         | true           | Find objects matching 1 or more values  |
+
+
 ## Updating OrganisationUnits
 
 - Updating an organisationUnit can be performed in two ways
