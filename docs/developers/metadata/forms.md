@@ -153,6 +153,18 @@ sidebar_label: Forms
 }
 ```
 
+<p> <strong>NOTE</strong>: All filtering mechanisms, can be combined to produce a lobust search strategy</p>
+
+- Available search and filter Operators
+
+| Operator | Types                                                                                 | Value Required | Description                             |
+| -------- | ------------------------------------------------------------------------------------- | -------------- | --------------------------------------- |
+| eq       | string \| boolean \| integer \| float \| enum \| collection (checks for size) \| date | true           | Equality                                |
+| like     | string                                                                                | true           | Case sensitive string, match anywhere   |
+| ilike    | string                                                                                | true           | Case insensitive string, match anywhere |
+| in       | string \| boolean \| integer \| float \| date                                         | true           | Find objects matching 1 or more values  |
+
+
 ** Form sections field selctions **
 > Form section fields can be selected to get only fields you need in your payload i.e names, ids, sort etc
 
