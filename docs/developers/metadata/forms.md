@@ -261,7 +261,7 @@ sidebar_label: Forms
 ** Endpoint **
 
 ```JS
-/api/formSections
+/api/formSectionFieldMembers
 ```
 
 `METHOD:` _POST_
