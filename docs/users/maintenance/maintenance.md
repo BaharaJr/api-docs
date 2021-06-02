@@ -53,14 +53,42 @@ Note: If you are getting difficulties seing the newly created field, just search
 ### B. Editing a field ###
 
 To edit an existing field in the system, follow the steps explained and illustreted below.
-1.
+
+1. From the list of fields available, click on the three dots located at the far right hand side of the field record. Three options will be displayed as indicated below.
+
+![img alt](/images/EdittingField.png)
+
+2. Select 'Edit' so as to edit a field. The field form will open up in edit mode with all field details populated in appropriate fields allowing you to edit details.
+
+3. Change the field details and then click the button captioned  'Update' located at the bottom of the form. The field details will be updated.
+
+
+
+
 ### C. Deleting a field ###
+
+To delete an existing field in the system, follow the steps explained and illustreted below.
+
+1. From the list of fields available, click on the three dots located at the far right hand side of the field record. Three options will be displayed as indicated below.
+
+![img alt](/images/EdittingField.png)
+
+2. Select 'delete', in this step a modal form will pop-up with a question asking you if you realy want to delete the field. You will be rquired to confirm if you realy want to delete the field. If you want to delete the field you should be sure to click the confirm button else just click cancel and the modal form will disappear right away. 
+
 ### C. Viewing field details ###
+
+To view details of an existing field in the system, follow the steps explained and illustreted below.
+
+1. From the list of fields available, click on the three dots located at the far right hand side of the field record. Three options will be displayed as indicated below.
+
+![img alt](/images/EdittingField.png)
+
+2. Select 'show details' , the field details will be displayed in non-edit mode.
 
 
 ## Field groups management ##
 
-Three major actions that can be perfomed on a field in field management page are listed below
+Fields can be grouped into different groups in the system to improve simplify organization usage and maintenance. Three major actions that can be perfomed on a field group in field management page are listed below.
 
 a. Add/Create a new field group
 
@@ -71,10 +99,12 @@ c. Delete a field group
 d. View field group details
 
 ### A. Adding/ Creating a new field group ###
+
+To add/create a new field group follow the steps explained and indicated below.
+
 ### B. Editing a field group ###
 ### C. Deleting a field group ###
 ### C. Viewing field group details ###
-
 
 ## Fields options management ##
 
