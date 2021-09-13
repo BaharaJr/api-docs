@@ -8,7 +8,7 @@ sidebar_label: Records
 
 The HRHIS API is organized around. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
 
-## Authenticationss 
+## Authentications
 The HRHIS API uses API keys to authenticate requests. You can view and manage your API keys in the HRHIS Dashboard.
 
 Test mode secret keys have the prefix sk_test_ and live mode secret keys have the prefix sk_live_. Alternatively, you can use restricted API keys for granular permissions.
@@ -22,9 +22,9 @@ If you need to authenticate via bearer auth (e.g., for a cross-origin request), 
 All API requests must be made over HTTPS. Calls made over plain HTTP will fail. API requests without authentication will also fail.
 
 ## Errors
-HRHIS uses conventional HTTP response codes to indicate the success or failure of an API request. In general: Codes in the 2xx range indicate success. Codes in the 4xx range indicate an error that failed given the information provided (e.g., a required parameter was omitted, a charge failed, etc.). Codes in the 5xx range indicate an error with Stripe's servers (these are rare).
+HRHIS uses conventional HTTP response codes to indicate the success or failure of an API request. In general: Codes in the 2xx range indicate success. Codes in the 4xx range indicate an error that failed given the information provided (e.g.Unauthorized, Forbidden, Method Not Allowed, Request Timeout etc.). Codes in the 5xx range indicate an error with HRHIS' servers (these are rare).
 
-Some 4xx errors that could be handled programmatically (e.g., ) include an error code that briefly explains the error reported.
+Some 4xx errors that could be handled programmatically (e.g. Bad Request, Payload Too Large) include an error code that briefly explains the error reported.
 
 ### Attributes
 #### type
@@ -69,7 +69,7 @@ All top-level API resources have support for bulk fetches via "list" API methods
 
 HRHIS utilizes cursor-based pagination via the starting_after and ending_before parameters. Both parameters take an existing object ID value (see below) and return objects in reverse chronological order. The ending_before parameter returns objects listed before the named object. The starting_after parameter returns objects listed after the named object. These parameters are mutually exclusive -- only one of starting_after orending_before may be used.
 
-Parameters
+#### Parameters
 limit
 optional, default is 10
 A limit on the number of objects to be returned, between 1 and 100.
