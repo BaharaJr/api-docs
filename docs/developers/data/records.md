@@ -2,8 +2,7 @@
 id: records
 title: Records Module
 sidebar_label: Records
----
-
+<!-->
 ### Record Duplicates and Merging API
 
 ## Get Duplicate Records.
@@ -766,3 +765,4 @@ the background to an external file store (depending on the system
 configuration). Retrieving the file resource meta-data from the
 `/api/fileResources/<id>` endpoint allows checking the `storageStatus`
 of the content before attempting to download it.
+-->
