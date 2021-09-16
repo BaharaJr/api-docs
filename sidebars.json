@@ -22,6 +22,7 @@
     ],
     "Web API": [
       "developers/basics",
+      "developers/api-introduction",
       {
         "type": "category",
         "label": "Metadata Guide",
@@ -35,11 +36,18 @@
         "type": "category",
         "label": "Data Guide",
         "items": [
-          "developers/data/records",
           "developers/data/analytics",
           "developers/data/dashboards",
           "developers/data/reports",
-          "developers/data/datastore"
+          "developers/data/datastore",
+          "developers/data/data-quality",
+          "developers/data/education-records",
+          "developers/data/Import-Export",
+          "developers/data/Scheduler",
+          "developers/data/councils",
+          "developers/data/reports",
+          "developers/data/data-administration",
+          "developers/data/record"
         ]
       },
       {
@@ -52,6 +60,13 @@
           "developers/settings/processes",
           "developers/settings/logs",
           "developers/settings/apps"
+        ]
+      },
+      {
+        "type": "category",
+        "label": "HRHIS API Intro",
+        "items": [
+          "developers/api-introduction"
         ]
       }
     ]
