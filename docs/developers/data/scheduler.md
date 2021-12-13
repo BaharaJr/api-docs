@@ -1,12 +1,15 @@
---- 
-title: Dashboard
-sidebar_label: Dashboard
 ---
-## Dashboard Module.
+id: Scheduler
+title: Scheduler Module
+sidebar_label: Scheduler
+---
+
+
+## Scheduler Module.
 
 This module allows viewing and analyzing of information from health practitioners registration councils. These are records from health professional registration councils including professionals expected to register but are not registered.
 
-### Dashboard
+### Data Import Processes
 
 `Method:` GET
 
@@ -48,4 +51,6 @@ This module allows viewing and analyzing of information from health practitioner
 ```
 |Element|Description|Type|Notes|
 |----|----|----|-----|
+
+
 

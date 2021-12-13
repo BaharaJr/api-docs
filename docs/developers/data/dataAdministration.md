@@ -1,12 +1,13 @@
---- 
-title: Dashboard
-sidebar_label: Dashboard
 ---
-## Dashboard Module.
+id: data-administration
+title: Data administration Module
+sidebar_label: Data administration
+---
+## Data administration Module.
 
 This module allows viewing and analyzing of information from health practitioners registration councils. These are records from health professional registration councils including professionals expected to register but are not registered.
 
-### Dashboard
+### Data administration
 
 `Method:` GET
 
@@ -48,4 +49,6 @@ This module allows viewing and analyzing of information from health practitioner
 ```
 |Element|Description|Type|Notes|
 |----|----|----|-----|
+
+
 

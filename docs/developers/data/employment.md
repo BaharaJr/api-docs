@@ -1,12 +1,13 @@
---- 
-title: Dashboard
-sidebar_label: Dashboard
 ---
-## Dashboard Module.
+id: records
+title: Records Module
+sidebar_label: Records
+---
+## Council Records Module.
 
 This module allows viewing and analyzing of information from health practitioners registration councils. These are records from health professional registration councils including professionals expected to register but are not registered.
 
-### Dashboard
+### Viewing registered proffessionals
 
 `Method:` GET
 
