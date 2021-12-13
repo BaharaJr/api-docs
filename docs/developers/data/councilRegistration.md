@@ -4,130 +4,107 @@ title: Council registration Module
 sidebar_label: Council Records
 ---
 
-## Council Records Module.
+## Record Modules​
+In HRHIS there are three modules that mainly hold different types of records i.e. Employment records, Council records and Education Records.
 
-This module allows viewing and analyzing of information from health practitioners registration councils. These are records from health professional registration councils including professionals who were expected to register but are not registered.
+## Introduction​
+What is record API?
 
-### Viewing registered proffessionals
+A record API is the messenger that delivers a request to the provider from which it is being requested and then delivers the response(records) back.
 
-To view registered health professionals first the registration form is accessed then all data in other forms that are mapped to the record are fetched and displayed. Here is the sample response for viewing reistered health professionals.
+What it generally offer
 
-`Path`
-```JS
-/api/forms/fbzalEYFM9a7O
-```
-where `fbzalEYFM9a7O` is the form id.
+A record API contains HTTP status code and data returned.
+
+Fetching​
+Aggregate records Fetching data in record modules follow similar sequence of actions as described below.
+
+Fetching listing records​
 
 `Method:` GET
+
+A default endpoint for fetching
+
+`api/analytics/records/KwTlfYKlSCcEd?pageSize=50&page=1&ouMode=DESCENDANTS&listing=true`
+
+Where `KwTlfYKlSCcEd` is the form id
+
+By default the page size is 50, but you can change the page size by setting the page size property to any number you wish.
+
+You can also get all records for viewing without pagination by simply setting paging = 'false'.
+
+|Parameter|Description|Type|Notes|
+|----|----|----|-----|
+|Page size|Number of items per page|number|By default is 50|
+|page|Page number (offset)|number|
+|Paging|specifies whether to use paging or not|when false (all records)are returned as response|
+
+Sample data payload
 
 `Payload`
 
 ```JSON
 {
-"id": "fbzalEYFM9a7O",
-"name": "Registration",
-"title": "Registration",
-"formSections": [],
-"formFieldMembers": [
+"pager": {
+"page": 1,
+"pageSize": 50,
+"pageCount": 50,
+"total": 1998,
+"nextPage": "/api/analytics/records/KwTlfYKlSCcEd?page=2"
+},
+"records": [
 {
-"id": "vRLD9O4I91T6R",
-"created": "2021-09-06T22:46:35.215Z",
-"lastUpdated": "2021-09-06T22:46:35.215Z",
-"fieldid": "140",
-"formid": "40",
-"sort": 1,
-"isPinned": false,
-"showInList": true,
-"compulsory": false,
-"searchable": true,
-"field": {
-"id": "5289e934ab062",
-"created": "2013-11-18T07:17:24.000Z",
-"lastUpdated": "2013-11-18T07:17:24.000Z",
-"name": "firstname",
-"description": "Compulsory, Employee`s Firstname.",
-"caption": "First Name",
-"compulsory": true,
-"isUnique": false,
-"isCalculated": false,
-"hasHistory": false,
-"datatype": "String",
-"fieldOptions": []
+"id": "q8dD4haVRtX9p",
+"created": "2021-09-20T06:09:18.000Z",
+"lastupdated": "2021-09-20T06:09:18.000Z",
+"ou": {
+"id": "Va5XqGVTyyZuK",
+"created": "2021-05-14T18:36:40.000Z",
+"lastUpdated": "2021-07-01T07:00:59.000Z",
+"code": "15005214030201",
+"name": "Kilosa Clinical Officers Training Centre",
+"description": "Kilosa Clinical Officers Training Centre Full Accreditation",
+"shortName": "Kilosa Cli",
+"address": "Kilosa District Council",
+"level": 4,
+"path": "/52893cd1b8359/52f0a11563b5e/cRHIYtAEi2biB/Va5XqGVTyyZuK",
+"ancestors": [
+{
+"id": "52893cd1b8359",
+"created": "2013-11-17T19:01:53.000Z",
+"lastUpdated": "2017-11-07T10:01:47.000Z",
+"code": "MOHCDGEC",
+"name": "Ministry Of Health",
+"description": "Ministry of Health and Social welfare",
+"shortName": "MOHCDGEC",
+"active": true,
+"level": 1,
+"path": "/52893cd1b8359"
 }
+]
+}
+}
+]
 }
 ```
-### Payload description
 
-The fields in the responses are described below.
+Searching parameters Dimension: `<fields>` Operators: `<eq, !eq, in, !in>`
 
-|Element|Description|Type|Notes|
-|----|----|----|-----|
-|Form|Record registry|metadata|Here is where all records are created and stored|
-|&nbsp;&nbsp;&nbsp;&nbsp;id|identifier for the referenced form|integer||
-|&nbsp;&nbsp;&nbsp;&nbsp;name|name of the form|string||
-|&nbsp;&nbsp;&nbsp;&nbsp;title|title of the form|string||
-|&nbsp;&nbsp;&nbsp;&nbsp;form sections|sections available in the form if any||
-|&nbsp;&nbsp;&nbsp;&nbsp;form field members|data fields assigned to the form||
-|Data||||
-|&nbsp;&nbsp;&nbsp;&nbsp;id|record identifier|integer||
-|&nbsp;&nbsp;&nbsp;&nbsp;created|creation date|date||
-|&nbsp;&nbsp;&nbsp;&nbsp;lastupdated|Updation date|date||
-|&nbsp;&nbsp;&nbsp;&nbsp;fieldid|identifier for a data field|integer||
-|&nbsp;&nbsp;&nbsp;&nbsp;formid|identifier of the form holding data||
-|&nbsp;&nbsp;&nbsp;&nbsp;sort|
-|&nbsp;&nbsp;&nbsp;&nbsp;isPinned|specifies if the data field is pinned to the form for handling field display||
-|&nbsp;&nbsp;&nbsp;&nbsp;showInList|specifies if a field has to be shown in the record list|boolean||
-|&nbsp;&nbsp;&nbsp;&nbsp;compulsory|specifies whether a field is mandatory or not|boolean||
-|&nbsp;&nbsp;&nbsp;&nbsp;isUnique|specifies whether a field is unique or not|boolean||
-|&nbsp;&nbsp;&nbsp;&nbsp;isCalculated|specifies whether a field is calculated or not|boolean||
-|&nbsp;&nbsp;&nbsp;&nbsp;hasHistory|specifies whether a field is historcica change or not|boolean||
-|&nbsp;&nbsp;&nbsp;&nbsp;datatype|Specifies a fields data type||
-|&nbsp;&nbsp;&nbsp;&nbsp;fieldOptions|specifies if data field has fixed options of values||
 
-### Viewing Inactive proffessionals
+|Operator|Description|
+|----|----|
+|eq|Fetch records where search item has EXACT MATCH for the given dimension|
+|!eq|Fetch records where search item has NO MATCH for the given dimension|
+|in|Fetch records with many search items where items exist IN records for the given dimension|
+|!in|Fetch records with many search items where items exist IN records for the given dimension|
 
-To get a list of professionals who were expected to be registered in councils but whose data are not found, involve tracing the students data to find all students who graduated from different institutions then tracing through all other child forms and the registration form so as to get records that have been mapped to student information but are not mapped to council or employement information.
+Fetching a single record
 
-`Path`
-```JS
-api/forms
-```
-where `fbzalEYFM9a7O` is the form id
+You can also search for a single record as described below
 
-`Request Method: GET`
+Endpoint
 
-`Response`
-```JSON
-{
-"id": "fbzalEYFM9a7O",
-"name": "Registration",
-"title": "Registration",
-"formSections": [],
-"formFieldMembers": [
-{
-"id": "vRLD9O4I91T6R",
-"created": "2021-09-06T22:46:35.215Z",
-"lastUpdated": "2021-09-06T22:46:35.215Z",
-"fieldid": "140",
-"formid": "40",
-"sort": 1,
-"isPinned": false,
-"showInList": true,
-"compulsory": false,
-"searchable": true,
-"field": {
-"id": "5289e934ab062",
-"created": "2013-11-18T07:17:24.000Z",
-"lastUpdated": "2013-11-18T07:17:24.000Z",
-"name": "firstname",
-"description": "Compulsory, Employee`s Firstname.",
-"caption": "First Name",
-"compulsory": true,
-"isUnique": false,
-"isCalculated": false,
-"hasHistory": false,
-"datatype": "String",
-"fieldOptions": []
-}
-}
-``` 
+`/api/records/pbD8mdbEY8lLT?fields=id,organisationUnit[id,organisationUnitGroups],form,recordValues[field]`
+
+Specify field to get the record
+
